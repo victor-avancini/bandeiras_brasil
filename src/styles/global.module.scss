@@ -1,0 +1,40 @@
+html {
+    min-width: 300px;
+    background-color: #eee;
+}
+
+body {
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    font-family: proxima-nova, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 112.5%;
+    line-height: 1.4;
+    color: #000;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+@media screen and (min-width: 600px) {
+    html {
+        padding: 15px;
+    }
+
+    body {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    html {
+        padding: 7px;
+    }
+
+    body {
+        padding: 16px;
+    }
+}
