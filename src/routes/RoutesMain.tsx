@@ -3,14 +3,19 @@ import { HomePage } from "../pages/HomePage/HomePage";
 import { AboutPage } from "../pages/AboutPage/AboutPage";
 import { GlossaryPage } from "../pages/Glossary/GlossaryPage";
 import { BrPage } from "../pages/BrPage/BrPage";
+import { StatePage } from "../pages/StatePage/StatePage";
+import { estados } from "../data/FlagsData";
 
 export const RoutesMain = () => {
     return (
         <Routes>
-            <Route path="/" element={<HomePage />}></Route>
-            <Route path="/sobre" element={<AboutPage />}></Route>
-            <Route path="/glossario" element={<GlossaryPage />}></Route>
-            <Route path="/br" element={<BrPage />}></Route>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/sobre" element={<AboutPage />} />
+            <Route path="/glossario" element={<GlossaryPage />} />
+            <Route path="/br" element={<BrPage />} />
+            {estados.map((estado) => (
+                <Route key={estado.nome} path={`/${estado.sigla}`} element={<StatePage estado={estado} />} />
+            ))}
         </Routes >
     )
 }

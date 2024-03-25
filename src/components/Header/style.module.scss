@@ -1,0 +1,106 @@
+header {
+    margin: 100px 0 80px;
+
+    .name {
+        width: 100%;
+        padding-bottom: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        border-bottom: solid #000;
+
+        h1 {
+            margin: 0;
+            line-height: 1;
+            font-weight: 800;
+        }
+
+        .flag {
+            margin-left: 20px;
+            display: block;
+
+            img {
+                border-radius: 4px;
+                width: 100%;
+            }
+
+            img:hover {
+                transform: scale(1.02) translateY(-5px);
+                box-shadow: 0 0 0 3px #fff, 0 0 9px 1px rgba(0, 0, 0, .35);
+                transition: all .15s ease-in-out;
+            }
+        }
+    }
+
+    @media screen and (min-width: 1150px) {
+        .name {
+            border-bottom-width: 16px;
+
+            h1 {
+                font-size: 7.3em;
+            }
+
+            .flag {
+                width: 130px;
+                margin-bottom: 16px;
+            }
+        }
+    }
+
+    @media screen and (min-width: 900px) and (max-width: 1150px) {
+        .name {
+            padding-bottom: 30px;
+            border-bottom-width: 14px;
+
+            h1 {
+                font-size: 5.2em;
+            }
+
+            .flag {
+                width: 110px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    @media screen and (min-width: 600px) and (max-width: 900px) {
+        .name {
+            padding-bottom: 20px;
+            border-bottom-width: 10px;
+
+            h1 {
+                font-size: 3.2em;
+            }
+
+            .flag {
+                width: 80px;
+                margin-bottom: 3px;
+            }
+        }
+    }
+
+    @media screen and (min-width: 300px) and (max-width: 600px) {
+        .name {
+            padding-bottom: 15px;
+            flex-direction: column-reverse;
+            align-items: flex-start;
+            border-bottom-width: 7px;
+
+            h1 {
+                font-size: 1.8em;
+            }
+
+            .flag {
+                width: 80px;
+                min-height: 50px;
+                margin-left: 0;
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    .description {
+        margin-top: 15px;
+        font-style: italic;
+    }
+}

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 html {
     min-width: 300px;
     background-color: #eee;
@@ -8,15 +10,20 @@ body {
     margin: 0 auto;
     background-color: #fff;
     border: 1px solid #ccc;
-    font-family: proxima-nova, Verdana, sans-serif;
+    font-family: "PT Serif", serif;
     font-weight: 300;
     font-size: 112.5%;
     line-height: 1.4;
     color: #000;
 }
 
-ol, ul {
-	list-style: none;
+p {
+    margin: 0;
+}
+
+ol,
+ul {
+    list-style: none;
 }
 
 @media screen and (min-width: 600px) {
@@ -29,7 +36,7 @@ ol, ul {
     }
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 600px) {
     html {
         padding: 7px;
     }

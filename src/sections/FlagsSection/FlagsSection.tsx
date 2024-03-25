@@ -1,4 +1,4 @@
-import { FlagList } from "../../components/FlagList/FlagList"
+import { FlagList } from "../../components/FlagList/FlagList";
 
 export const FlagsSection = () => {
     return (

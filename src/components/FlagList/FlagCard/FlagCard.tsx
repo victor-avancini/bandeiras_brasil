@@ -1,14 +1,16 @@
-import { Link } from "react-router-dom"
+import React from "react";
+import { Link } from "react-router-dom";
+import { FlagCardProps } from "../../../data/FlagsData";
 
-export const FlagCard = () => {
+export const FlagCard: React.FC<FlagCardProps> = ({ estado }) => {
     return (
         <li className="flag_item">
-            <Link to="/estado">
+            <Link to={`/${estado.sigla}`}>
             <div className="flag state">
-                <img src="" alt="" />
+                <img src={estado.bandeira} alt={`Bandeira do ${estado.nome}`} />
             </div>
             <div className="name">
-                <p>nome estado</p>
+                <p>{estado.nome}</p>
             </div>
             </Link>
         </li>
