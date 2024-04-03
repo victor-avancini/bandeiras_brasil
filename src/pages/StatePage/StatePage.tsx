@@ -1,6 +1,6 @@
 import React from "react";
-import { EstadoPageProps } from "../../data/FlagsData";
 import { NavState } from "../../components/NavState/NavState";
+import { EstadoPageProps } from "../../interfaces/estado.interface";
 
 export const StatePage: React.FC<EstadoPageProps> = ({ estado }) => {
     return (

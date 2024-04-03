@@ -1,0 +1,38 @@
+.flag_item {
+    width: auto;
+
+    .flag_link {
+        display: block;
+        text-decoration: none;
+
+        .flag_state {
+            display: block;
+            height: 100%;
+
+            img {
+                display: block;
+                width: 100%;
+                border-radius: 4px;
+            }
+
+            img:hover {
+                transform: scale(1.02) translateY(-5px);
+                box-shadow: 0 0 0 3px #fff, 0 0 9px 1px rgba(0, 0, 0, .35);
+                transition: all .15s ease-in-out;
+            }
+        }
+
+        .flag_name {
+
+            p {
+                color: black;
+                font-style: italic;
+            }
+        }
+    }
+
+    .flag_link:hover {
+        text-decoration: underline;
+        color: black;
+    }
+}
