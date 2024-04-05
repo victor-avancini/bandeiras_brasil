@@ -1,0 +1,17 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 50px;
+
+    font-style: italic;
+
+    p{
+        font-size: 0.9rem;
+
+        a{
+            text-decoration: underline;
+            color: black;
+        }
+    }
+}
