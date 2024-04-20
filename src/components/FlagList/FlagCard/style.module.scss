@@ -25,8 +25,16 @@
         .flag_name {
 
             p {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+
                 color: black;
                 font-style: italic;
+
+                .arrow_color {
+                    color: white;
+                }
             }
         }
     }
@@ -34,5 +42,13 @@
     .flag_link:hover {
         text-decoration: underline;
         color: black;
+
+        .flag_name {
+            p {
+                .arrow_color {
+                    color: black;
+                }
+            }
+        }
     }
 }

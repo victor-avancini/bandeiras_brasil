@@ -1,7 +1,7 @@
-header {
+.state {
     margin: 100px 0 80px;
 
-    .name {
+    .name_state {
         width: 100%;
         padding-bottom: 40px;
         display: flex;
@@ -15,7 +15,7 @@ header {
             font-weight: 800;
         }
 
-        .flag {
+        .flag_state {
             display: block;
 
             img {
@@ -32,14 +32,14 @@ header {
     }
 
     @media screen and (min-width: 1150px) {
-        .name {
+        .name_state {
             border-bottom-width: 16px;
 
             h1 {
                 font-size: 7.3em;
             }
 
-            .flag {
+            .flag_state {
                 width: 230px;
                 margin-bottom: 16px;
             }
@@ -47,7 +47,7 @@ header {
     }
 
     @media screen and (min-width: 900px) and (max-width: 1150px) {
-        .name {
+        .name_state {
             padding-bottom: 30px;
             border-bottom-width: 14px;
 
@@ -55,7 +55,7 @@ header {
                 font-size: 5.2em;
             }
 
-            .flag {
+            .flag_state {
                 width: 110px;
                 margin-bottom: 10px;
             }
@@ -63,7 +63,7 @@ header {
     }
 
     @media screen and (min-width: 600px) and (max-width: 900px) {
-        .name {
+        .name_state {
             padding-bottom: 20px;
             border-bottom-width: 10px;
 
@@ -71,7 +71,7 @@ header {
                 font-size: 3.2em;
             }
 
-            .flag {
+            .flag_state {
                 width: 80px;
                 margin-bottom: 3px;
             }
@@ -79,7 +79,7 @@ header {
     }
 
     @media screen and (min-width: 300px) and (max-width: 600px) {
-        .name {
+        .name_state {
             padding-bottom: 15px;
             flex-direction: column-reverse;
             align-items: flex-start;
@@ -89,7 +89,7 @@ header {
                 font-size: 1.8em;
             }
 
-            .flag {
+            .flag_state {
                 width: 80px;
                 min-height: 50px;
                 margin-left: 0;
@@ -98,7 +98,10 @@ header {
         }
     }
 
-    .description {
+    .description_state {
+        display: flex;
+        justify-content: space-between;
+
         margin-top: 15px;
         font-size: 1.2em;
         font-style: italic;

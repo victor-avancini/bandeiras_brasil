@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FlagCardProps } from "../../../interfaces/estado.interface";
 import styles from "./style.module.scss"
+import { MdArrowRightAlt } from "react-icons/md";
 
 export const FlagCard: React.FC<FlagCardProps> = ({ estado }) => {
     return (
@@ -11,7 +12,7 @@ export const FlagCard: React.FC<FlagCardProps> = ({ estado }) => {
                     <img src={estado.bandeira} alt={`Bandeira ${estado.nome}`} />
                 </div>
                 <div className={styles.flag_name}>
-                    <p>{estado.nome}</p>
+                    <p>{estado.nome} <MdArrowRightAlt className={styles.arrow_color} /></p>
                 </div>
             </Link>
         </li>

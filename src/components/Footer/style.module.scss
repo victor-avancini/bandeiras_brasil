@@ -6,12 +6,25 @@ footer {
 
     font-style: italic;
 
-    p{
-        font-size: 0.9rem;
+    p {
+        font-size: 1.2em;
 
-        a{
+        a {
             text-decoration: underline;
             color: black;
+            margin: 10px;
+        }
+
+        a:hover {
+            background-color: #ddd;
+            box-shadow: 0 0 0 5px #ddd;
+            margin: 10px;
+        }
+    }
+
+    @media screen and (max-width: 450px) {
+        p {
+            font-size: 0.7em;
         }
     }
 }

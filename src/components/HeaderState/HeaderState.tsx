@@ -1,18 +1,22 @@
-export const HeaderState = () => {
+import { EstadoPageProps } from "../../interfaces/estado.interface";
+import styles from "./styles.module.scss";
+
+export const HeaderState: React.FC<EstadoPageProps> = ({estado}) => {
+
     return (
-        <header className="state">
-            <div className="name">
-                <h1>Nome do estado</h1>
-                <div>
-                    {/* <Link to="/state"><img src={bandeira estado} alt="Bandeira do Estado" /></Link> */}
+        <header className={styles.state}>
+            <div className={styles.name_state}>
+                <h1>{estado.nome}</h1>
+                <div className={styles.flag_state}>
+                    <img src={estado.bandeira} alt="Bandeira" />
                 </div>
             </div>
-            <div className="description">
-                <div className="nickname">
-                    <p></p>
+            <div className={styles.description_state}>
+                <div className={styles.nickname_state}>
+                    <p>{estado.nickname}</p>
                 </div>
-                <div className="date">
-                    <p></p>
+                <div className={styles.admitted}>
+                    <p>{estado.admitted.day} de {estado.admitted.month} de {estado.admitted.year}</p>
                 </div>
             </div>
         </header>

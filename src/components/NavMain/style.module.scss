@@ -1,8 +1,9 @@
 .nav_main {
     display: flex;
     justify-content: flex-end;
-    gap: 20px;
+    gap: 25px;
     font-style: italic;
+    font-size: 1.2em;
 
     .links {
         text-decoration: underline;
@@ -13,8 +14,6 @@
 
     .links:hover {
         background-color: #ddd;
-        -webkit-box-shadow: 0 0 0 5px #ddd;
         box-shadow: 0 0 0 5px #ddd;
-        color: #000;
     }
 }

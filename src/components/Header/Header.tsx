@@ -12,7 +12,7 @@ export const Header = () => {
                 </div>
             </div>
             <div className={styles.description}>
-                <p>Um guia das bandeiras dos estados do Brasil</p>
+                <p>Um guia simples dos estados do Brasil</p>
             </div>
         </header>
     )
