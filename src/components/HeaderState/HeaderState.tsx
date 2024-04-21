@@ -1,14 +1,14 @@
 import { EstadoPageProps } from "../../interfaces/estado.interface";
 import styles from "./styles.module.scss";
 
-export const HeaderState: React.FC<EstadoPageProps> = ({estado}) => {
+export const HeaderState: React.FC<EstadoPageProps> = ({ estado }) => {
 
     return (
         <header className={styles.state}>
             <div className={styles.name_state}>
-                <h1>{estado.nome}</h1>
+                <h1>{estado.name}</h1>
                 <div className={styles.flag_state}>
-                    <img src={estado.bandeira} alt="Bandeira" />
+                    <img src={estado.flag} alt="Bandeira" />
                 </div>
             </div>
             <div className={styles.description_state}>

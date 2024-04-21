@@ -1,14 +1,19 @@
 export interface Estado {
-    nome: string;
-    sigla: string;
+    name: string;
+    acronym: string;
     capital: string;
-    bandeira: string;
+    flag: string;
     nickname: string;
     admitted: {
         day: number,
         month: string,
         year: number,
-    }
+    },
+    description: string[],
+    sources: {
+        title: string,
+        link: string,
+    }[],
 }
 
 export interface FlagCardProps {

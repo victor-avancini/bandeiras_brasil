@@ -29,353 +29,504 @@ import bandeira_TO from "../assets/bandeira_tocantins.jpg";
 
 export const estados: Estado[] = [
     {
-        nome: "Acre",
-        sigla: "AC",
+        name: "Acre",
+        acronym: "AC",
         capital: "Rio Branco",
-        bandeira: bandeira_AC,
+        flag: bandeira_AC,
         nickname: "Terra das águas",
         admitted: {
             day: 15,
             month: "Junho",
             year: 1962,
         },
+        description: ["A bandeira do estado que lutou para ser brasileiro tem duas cores principais: verde e amarela.", "O gaúcho José Plácido de Castro liderou uma revolta que tirou Luiz Galvez do poder da então 'República do Acre'. Para homenagear essa luta, foi inserida a estrela vermelha na bandeira.", "A bandeira atual foi oficialmente adotada em 22 de dezembro de 1995."],
+        sources: [
+            {
+                title: "Instituído o Estado do Acre",
+                link: "https://www.planalto.gov.br/ccivil_03/leis/1950-1969/L4070.htm#:~:text=LEI%20No%204.070,%20DE%2015%20DE%20JUNHO%20DE%201962.&text=Eleva%20o%20Territ%C3%B3rio%20do%20Acre,eu%20sanciono%20a%20seguinte%20Lei:&text=1.%C2%BA%20O%20Territ%C3%B3rio%20%C3%A0,erigido%20em%20Estado%20do%20Acre",
+            },
+            {
+                title: "Bandeira do Acre - Wikipédia",
+                link: "https://pt.wikipedia.org/wiki/Bandeira_do_Acre",
+            },
+            {
+                title: "História do Acre - Wikipédia",
+                link: "https://pt.wikipedia.org/wiki/Hist%C3%B3ria_do_Acre",
+            }
+        ],
     },
 
     {
-        nome: "Alagoas",
-        sigla: "AL",
+        name: "Alagoas",
+        acronym: "AL",
         capital: "Maceió",
-        bandeira: bandeira_AL,
+        flag: bandeira_AL,
         nickname: "Caribe brasileiro",
         admitted: {
             day: 11,
             month: "Junho",
             year: 1891,
         },
+        description: ["lagoas é o estado onde nasceu Manuel Deodoro da Fonseca, Marechal do Exército Brasileiro que proclamou a República e foi o primeiro presidente do Brasil.", "O brasão simboliza as primeiras cidades alagoanas, Marechal Deodoro, Porto Calvo e Penedo, bem como suas riquezas agrícolas: a cana-de-açucar e o algodão.", "A bandeira atual foi oficialmente adotada em 23 de setembro de 1963."],
+        sources: [
+            {
+                title: "Bandeira de Alagoas - Wikipédia",
+                link: "https://pt.wikipedia.org/wiki/Bandeira_de_Alagoas",
+            },
+            {
+                title: "História de Alagoas - Wikipédia",
+                link: "https://pt.wikipedia.org/wiki/Hist%C3%B3ria_de_Alagoas",
+            },
+        ],
     },
 
     {
-        nome: "Amapá",
-        sigla: "AP",
+        name: "Amapá",
+        acronym: "AP",
         capital: "Macapá",
-        bandeira: bandeira_AP,
+        flag: bandeira_AP,
         nickname: "Portal da Amazônia",
         admitted: {
             day: 5,
             month: "Outubro",
             year: 1988,
         },
+        description: [],
+        sources: [{
+            title: "Título da fonte",
+            link: "Link da fonte",
+        }],
     },
 
     {
-        nome: "Amazonas",
-        sigla: "AM",
+        name: "Amazonas",
+        acronym: "AM",
         capital: "Manaus",
-        bandeira: bandeira_AM,
+        flag: bandeira_AM,
         nickname: "Coração da Amazônia",
         admitted: {
             day: 15,
             month: "Novembro",
             year: 1889,
         },
+        description: [],
+        sources: [{
+            title: "Título da fonte",
+            link: "Link da fonte",
+        }],
     },
 
     {
-        nome: "Bahia",
-        sigla: "BA",
+        name: "Bahia",
+        acronym: "BA",
         capital: "Salvador",
-        bandeira: bandeira_BA,
+        flag: bandeira_BA,
         nickname: "Terra da Alegria",
         admitted: {
             day: 32,
             month: "Fechou",
             year: 3000,
         },
+        description: [],
+        sources: [{
+            title: "Título da fonte",
+            link: "Link da fonte",
+        }],
     },
 
     {
-        nome: "Ceará",
-        sigla: "CE",
+        name: "Ceará",
+        acronym: "CE",
         capital: "Fortaleza",
-        bandeira: bandeira_CE,
+        flag: bandeira_CE,
         nickname: "Terra do Sol",
         admitted: {
             day: 1,
             month: "Janeiro",
             year: 2021,
         },
+        description: [],
+        sources: [{
+            title: "Título da fonte",
+            link: "Link da fonte",
+        }],
     },
 
     {
-        nome: "Distrito Federal",
-        sigla: "DF",
+        name: "Distrito Federal",
+        acronym: "DF",
         capital: "Brasília",
-        bandeira: bandeira_DF,
+        flag: bandeira_DF,
         nickname: "Brasília, a Capital do Brasil",
         admitted: {
             day: 1,
             month: "Janeiro",
             year: 2021,
         },
+        description: [],
+        sources: [{
+            title: "Título da fonte",
+            link: "Link da fonte",
+        }],
     },
 
     {
-        nome: "Espírito Santo",
-        sigla: "ES",
+        name: "Espírito Santo",
+        acronym: "ES",
         capital: "Vitória",
-        bandeira: bandeira_ES,
+        flag: bandeira_ES,
         nickname: "Coração Capixaba",
         admitted: {
             day: 1,
             month: "Janeiro",
             year: 2021,
         },
+        description: [],
+        sources: [{
+            title: "Título da fonte",
+            link: "Link da fonte",
+        }],
     },
 
     {
-        nome: "Goiás",
-        sigla: "GO",
+        name: "Goiás",
+        acronym: "GO",
         capital: "Goiânia",
-        bandeira: bandeira_GO,
+        flag: bandeira_GO,
         nickname: "Estado do Cerrado",
         admitted: {
             day: 1,
             month: "Janeiro",
             year: 2021,
         },
+        description: [],
+        sources: [{
+            title: "Título da fonte",
+            link: "Link da fonte",
+        }],
     },
 
     {
-        nome: "Maranhão",
-        sigla: "MA",
+        name: "Maranhão",
+        acronym: "MA",
         capital: "São Luís",
-        bandeira: bandeira_MA,
+        flag: bandeira_MA,
         nickname: "Terra dos Lençóis",
         admitted: {
             day: 1,
             month: "Janeiro",
             year: 2021,
         },
+        description: [],
+        sources: [{
+            title: "Título da fonte",
+            link: "Link da fonte",
+        }],
     },
 
     {
-        nome: "Mato Grosso",
-        sigla: "MT",
+        name: "Mato Grosso",
+        acronym: "MT",
         capital: "Cuiabá",
-        bandeira: bandeira_MT,
+        flag: bandeira_MT,
         nickname: "Terra dos Pantanais",
         admitted: {
             day: 1,
             month: "Janeiro",
             year: 2021,
         },
+        description: [],
+        sources: [{
+            title: "Título da fonte",
+            link: "Link da fonte",
+        }],
     },
 
     {
-        nome: "Mato Grosso do Sul",
-        sigla: "MS",
+        name: "Mato Grosso do Sul",
+        acronym: "MS",
         capital: "Campo Grande",
-        bandeira: bandeira_MS,
+        flag: bandeira_MS,
         nickname: "Portal do Pantanal",
         admitted: {
             day: 1,
             month: "Janeiro",
             year: 2021,
         },
+        description: [],
+        sources: [{
+            title: "Título da fonte",
+            link: "Link da fonte",
+        }],
     },
 
     {
-        nome: "Minas Gerais",
-        sigla: "MG",
+        name: "Minas Gerais",
+        acronym: "MG",
         capital: "Belo Horizonte",
-        bandeira: bandeira_MG,
+        flag: bandeira_MG,
         nickname: "Terra do Pão de Queijo",
         admitted: {
             day: 1,
             month: "Janeiro",
             year: 2021,
         },
+        description: [],
+        sources: [{
+            title: "Título da fonte",
+            link: "Link da fonte",
+        }],
     },
 
     {
-        nome: "Pará",
-        sigla: "PA",
+        name: "Pará",
+        acronym: "PA",
         capital: "Belém",
-        bandeira: bandeira_PA,
+        flag: bandeira_PA,
         nickname: "Terra das Mangueiras",
         admitted: {
             day: 1,
             month: "Janeiro",
             year: 2021,
         },
+        description: [],
+        sources: [{
+            title: "Título da fonte",
+            link: "Link da fonte",
+        }],
     },
 
     {
-        nome: "Paraíba",
-        sigla: "PB",
+        name: "Paraíba",
+        acronym: "PB",
         capital: "João Pessoa",
-        bandeira: bandeira_PB,
+        flag: bandeira_PB,
         nickname: "Coração do Nordeste",
         admitted: {
             day: 1,
             month: "Janeiro",
             year: 2021,
         },
+        description: [],
+        sources: [{
+            title: "Título da fonte",
+            link: "Link da fonte",
+        }],
     },
 
     {
-        nome: "Paraná",
-        sigla: "PR",
+        name: "Paraná",
+        acronym: "PR",
         capital: "Curitiba",
-        bandeira: bandeira_PR,
+        flag: bandeira_PR,
         nickname: "Terra das Araucárias",
         admitted: {
             day: 1,
             month: "Janeiro",
             year: 2021,
         },
+        description: [],
+        sources: [{
+            title: "Título da fonte",
+            link: "Link da fonte",
+        }],
     },
 
     {
-        nome: "Pernambuco",
-        sigla: "PE",
+        name: "Pernambuco",
+        acronym: "PE",
         capital: "Recife",
-        bandeira: bandeira_PE,
+        flag: bandeira_PE,
         nickname: "Terra do Frevo",
         admitted: {
             day: 1,
             month: "Janeiro",
             year: 2021,
         },
+        description: [],
+        sources: [{
+            title: "Título da fonte",
+            link: "Link da fonte",
+        }],
     },
 
     {
-        nome: "Piauí",
-        sigla: "PI",
+        name: "Piauí",
+        acronym: "PI",
         capital: "Teresina",
-        bandeira: bandeira_PI,
+        flag: bandeira_PI,
         nickname: "Porta do Sertão",
         admitted: {
             day: 1,
             month: "Janeiro",
             year: 2021,
         },
+        description: [],
+        sources: [{
+            title: "Título da fonte",
+            link: "Link da fonte",
+        }],
     },
 
     {
-        nome: "Rio de Janeiro",
-        sigla: "RJ",
+        name: "Rio de Janeiro",
+        acronym: "RJ",
         capital: "Rio de Janeiro",
-        bandeira: bandeira_RJ,
+        flag: bandeira_RJ,
         nickname: "Cidade Maravilhosa e capital mundial do Samba",
         admitted: {
             day: 1,
             month: "Janeiro",
             year: 2021,
         },
+        description: [],
+        sources: [{
+            title: "Título da fonte",
+            link: "Link da fonte",
+        }],
     },
 
     {
-        nome: "Rio Grande do Norte",
-        sigla: "RN",
+        name: "Rio Grande do Norte",
+        acronym: "RN",
         capital: "Natal",
-        bandeira: bandeira_RN,
+        flag: bandeira_RN,
         nickname: "Maravilha do Brasil",
         admitted: {
             day: 1,
             month: "Janeiro",
             year: 2021,
         },
+        description: [],
+        sources: [{
+            title: "Título da fonte",
+            link: "Link da fonte",
+        }],
     },
 
     {
-        nome: "Rio Grande do Sul",
-        sigla: "RS",
+        name: "Rio Grande do Sul",
+        acronym: "RS",
         capital: "Porto Alegre",
-        bandeira: bandeira_RS,
+        flag: bandeira_RS,
         nickname: "Terra dos Pampas",
         admitted: {
             day: 1,
             month: "Janeiro",
             year: 2021,
         },
+        description: [],
+        sources: [{
+            title: "Título da fonte",
+            link: "Link da fonte",
+        }],
     },
 
     {
-        nome: "Rondônia",
-        sigla: "RO",
+        name: "Rondônia",
+        acronym: "RO",
         capital: "Porto Velho",
-        bandeira: bandeira_RO,
+        flag: bandeira_RO,
         nickname: "Terra do Rondon",
         admitted: {
             day: 1,
             month: "Janeiro",
             year: 2021,
         },
+        description: [],
+        sources: [{
+            title: "Título da fonte",
+            link: "Link da fonte",
+        }],
     },
 
     {
-        nome: "Roraima",
-        sigla: "RR",
+        name: "Roraima",
+        acronym: "RR",
         capital: "Boa Vista",
-        bandeira: bandeira_RR,
+        flag: bandeira_RR,
         nickname: "Monte Roraima",
         admitted: {
             day: 1,
             month: "Janeiro",
             year: 2021,
         },
+        description: [],
+        sources: [{
+            title: "Título da fonte",
+            link: "Link da fonte",
+        }],
     },
 
     {
-        nome: "Santa Catarina",
-        sigla: "SC",
+        name: "Santa Catarina",
+        acronym: "SC",
         capital: "Florianópolis",
-        bandeira: bandeira_SC,
+        flag: bandeira_SC,
         nickname: "Paraíso das Praias",
         admitted: {
             day: 1,
             month: "Janeiro",
             year: 2021,
         },
+        description: [],
+        sources: [{
+            title: "Título da fonte",
+            link: "Link da fonte",
+        }],
     },
 
     {
-        nome: "São Paulo",
-        sigla: "SP",
+        name: "São Paulo",
+        acronym: "SP",
         capital: "São Paulo",
-        bandeira: bandeira_SP,
+        flag: bandeira_SP,
         nickname: "Terra da Garoa e capital econômica do Brasil",
         admitted: {
             day: 1,
             month: "Janeiro",
             year: 2021,
         },
+        description: [],
+        sources: [{
+            title: "Título da fonte",
+            link: "Link da fonte",
+        }],
     },
 
     {
-        nome: "Sergipe",
-        sigla: "SE",
+        name: "Sergipe",
+        acronym: "SE",
         capital: "Aracaju",
-        bandeira: bandeira_SE,
+        flag: bandeira_SE,
         nickname: "Terra dos Cajuais",
         admitted: {
             day: 1,
             month: "Janeiro",
             year: 2021,
         },
+        description: [],
+        sources: [{
+            title: "Título da fonte",
+            link: "Link da fonte",
+        }],
     },
 
     {
-        nome: "Tocantins",
-        sigla: "TO",
+        name: "Tocantins",
+        acronym: "TO",
         capital: "Palmas",
-        bandeira: bandeira_TO,
+        flag: bandeira_TO,
         nickname: "Portal do Jalapão",
         admitted: {
             day: 1,
             month: "Janeiro",
             year: 2021,
         },
+        description: [],
+        sources: [{
+            title: "Título da fonte",
+            link: "Link da fonte",
+        }],
     },
 ]

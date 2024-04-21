@@ -14,7 +14,7 @@ export const RoutesMain = () => {
             <Route path="/glossario" element={<GlossaryPage />} />
             <Route path="/br" element={<BrPage />} />
             {estados.map((estado) => (
-                <Route key={estado.nome} path={`/${estado.sigla}`} element={<StatePage estado={estado} />} />
+                <Route key={estado.name} path={`/${estado.name}`} element={<StatePage estado={estado} />} />
             ))}
         </Routes >
     )

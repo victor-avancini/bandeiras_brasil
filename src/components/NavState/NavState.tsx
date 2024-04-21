@@ -7,7 +7,7 @@ export const NavState = () => {
     return (
         <nav className={styles.nav_main}>
             <div className={styles.back_button}>
-                <Link to="/" className={styles.links}><IoIosArrowBack />   Voltar</Link>
+                <Link to="/" className={styles.links}><IoIosArrowBack />Voltar</Link>
             </div>
             <div className={styles.about_and_glossary}>
                 <Link to="/sobre" className={styles.links}>Sobre</Link>

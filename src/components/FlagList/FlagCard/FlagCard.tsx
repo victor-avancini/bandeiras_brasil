@@ -7,12 +7,12 @@ import { MdArrowRightAlt } from "react-icons/md";
 export const FlagCard: React.FC<FlagCardProps> = ({ estado }) => {
     return (
         <li className={styles.flag_item}>
-            <Link to={`/${estado.sigla}`} className={styles.flag_link}>
+            <Link to={`/${estado.name}`} className={styles.flag_link}>
                 <div className={styles.flag_state}>
-                    <img src={estado.bandeira} alt={`Bandeira ${estado.nome}`} />
+                    <img src={estado.flag} alt={`Bandeira ${estado.name}`} />
                 </div>
                 <div className={styles.flag_name}>
-                    <p>{estado.nome} <MdArrowRightAlt className={styles.arrow_color} /></p>
+                    <p>{estado.name} <MdArrowRightAlt className={styles.arrow_color} /></p>
                 </div>
             </Link>
         </li>
