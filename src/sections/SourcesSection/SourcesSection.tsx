@@ -1,14 +1,18 @@
 import { CiLink } from "react-icons/ci";
-import { EstadoPageProps } from "../../interfaces/estado.interface";
+import { StatePageProps } from "../../interfaces/state.interface";
 import styles from "./styles.module.scss";
 
-export const SourcesSection: React.FC<EstadoPageProps> = ({ estado }) => {
+export const SourcesSection: React.FC<StatePageProps> = ({ state }) => {
     return (
         <section className={styles.sources}>
-            <h3>Sources</h3>
-            {estado.sources.map((source, index) => (
-                <p key={index}><a href={source.link}>{source.title}</a><CiLink /></p>
-            ))}
+            <h3>Referências</h3>
+            <ul>
+                {state.sources.map((source, index) => (
+                    <li className={styles.source}>
+                        <a key={index} href={source.link}>{source.title}<CiLink /></a>
+                    </li>
+                ))}
+            </ul>
         </section>
     )
 }

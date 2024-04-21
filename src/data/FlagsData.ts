@@ -1,4 +1,4 @@
-import { Estado } from "../interfaces/estado.interface";
+import { State } from "../interfaces/state.interface";
 import bandeira_AC from "../assets/bandeira_acre.png";
 import bandeira_AL from "../assets/bandeira_alagoas.png";
 import bandeira_AP from "../assets/bandeira_amapa.jpg";
@@ -27,8 +27,9 @@ import bandeira_SP from "../assets/bandeira_sao_paulo.jpg";
 import bandeira_SE from "../assets/bandeira_sergipe.jpg";
 import bandeira_TO from "../assets/bandeira_tocantins.jpg";
 
-export const estados: Estado[] = [
+export const states: State[] = [
     {
+        id: 1,
         name: "Acre",
         acronym: "AC",
         capital: "Rio Branco",
@@ -57,6 +58,7 @@ export const estados: Estado[] = [
     },
 
     {
+        id: 2,
         name: "Alagoas",
         acronym: "AL",
         capital: "Maceió",
@@ -81,6 +83,7 @@ export const estados: Estado[] = [
     },
 
     {
+        id: 3,
         name: "Amapá",
         acronym: "AP",
         capital: "Macapá",
@@ -93,12 +96,13 @@ export const estados: Estado[] = [
         },
         description: [],
         sources: [{
-            title: "Título da fonte",
-            link: "Link da fonte",
+            title: "",
+            link: "",
         }],
     },
 
     {
+        id: 4,
         name: "Amazonas",
         acronym: "AM",
         capital: "Manaus",
@@ -111,12 +115,13 @@ export const estados: Estado[] = [
         },
         description: [],
         sources: [{
-            title: "Título da fonte",
-            link: "Link da fonte",
+            title: "",
+            link: "",
         }],
     },
 
     {
+        id: 5,
         name: "Bahia",
         acronym: "BA",
         capital: "Salvador",
@@ -129,12 +134,13 @@ export const estados: Estado[] = [
         },
         description: [],
         sources: [{
-            title: "Título da fonte",
-            link: "Link da fonte",
+            title: "",
+            link: "",
         }],
     },
 
     {
+        id: 6,
         name: "Ceará",
         acronym: "CE",
         capital: "Fortaleza",
@@ -147,12 +153,13 @@ export const estados: Estado[] = [
         },
         description: [],
         sources: [{
-            title: "Título da fonte",
-            link: "Link da fonte",
+            title: "",
+            link: "",
         }],
     },
 
     {
+        id: 7,
         name: "Distrito Federal",
         acronym: "DF",
         capital: "Brasília",
@@ -165,12 +172,13 @@ export const estados: Estado[] = [
         },
         description: [],
         sources: [{
-            title: "Título da fonte",
-            link: "Link da fonte",
+            title: "",
+            link: "",
         }],
     },
 
     {
+        id: 8,
         name: "Espírito Santo",
         acronym: "ES",
         capital: "Vitória",
@@ -183,12 +191,13 @@ export const estados: Estado[] = [
         },
         description: [],
         sources: [{
-            title: "Título da fonte",
-            link: "Link da fonte",
+            title: "",
+            link: "",
         }],
     },
 
     {
+        id: 9,
         name: "Goiás",
         acronym: "GO",
         capital: "Goiânia",
@@ -201,12 +210,13 @@ export const estados: Estado[] = [
         },
         description: [],
         sources: [{
-            title: "Título da fonte",
-            link: "Link da fonte",
+            title: "",
+            link: "",
         }],
     },
 
     {
+        id: 10,
         name: "Maranhão",
         acronym: "MA",
         capital: "São Luís",
@@ -219,12 +229,13 @@ export const estados: Estado[] = [
         },
         description: [],
         sources: [{
-            title: "Título da fonte",
-            link: "Link da fonte",
+            title: "",
+            link: "",
         }],
     },
 
     {
+        id: 11,
         name: "Mato Grosso",
         acronym: "MT",
         capital: "Cuiabá",
@@ -237,12 +248,13 @@ export const estados: Estado[] = [
         },
         description: [],
         sources: [{
-            title: "Título da fonte",
-            link: "Link da fonte",
+            title: "",
+            link: "",
         }],
     },
 
     {
+        id: 12,
         name: "Mato Grosso do Sul",
         acronym: "MS",
         capital: "Campo Grande",
@@ -255,12 +267,13 @@ export const estados: Estado[] = [
         },
         description: [],
         sources: [{
-            title: "Título da fonte",
-            link: "Link da fonte",
+            title: "",
+            link: "",
         }],
     },
 
     {
+        id: 13,
         name: "Minas Gerais",
         acronym: "MG",
         capital: "Belo Horizonte",
@@ -273,12 +286,13 @@ export const estados: Estado[] = [
         },
         description: [],
         sources: [{
-            title: "Título da fonte",
-            link: "Link da fonte",
+            title: "",
+            link: "",
         }],
     },
 
     {
+        id: 14,
         name: "Pará",
         acronym: "PA",
         capital: "Belém",
@@ -291,12 +305,13 @@ export const estados: Estado[] = [
         },
         description: [],
         sources: [{
-            title: "Título da fonte",
-            link: "Link da fonte",
+            title: "",
+            link: "",
         }],
     },
 
     {
+        id: 15,
         name: "Paraíba",
         acronym: "PB",
         capital: "João Pessoa",
@@ -309,12 +324,13 @@ export const estados: Estado[] = [
         },
         description: [],
         sources: [{
-            title: "Título da fonte",
-            link: "Link da fonte",
+            title: "",
+            link: "",
         }],
     },
 
     {
+        id: 16,
         name: "Paraná",
         acronym: "PR",
         capital: "Curitiba",
@@ -327,12 +343,13 @@ export const estados: Estado[] = [
         },
         description: [],
         sources: [{
-            title: "Título da fonte",
-            link: "Link da fonte",
+            title: "",
+            link: "",
         }],
     },
 
     {
+        id: 17,
         name: "Pernambuco",
         acronym: "PE",
         capital: "Recife",
@@ -345,12 +362,13 @@ export const estados: Estado[] = [
         },
         description: [],
         sources: [{
-            title: "Título da fonte",
-            link: "Link da fonte",
+            title: "",
+            link: "",
         }],
     },
 
     {
+        id: 18,
         name: "Piauí",
         acronym: "PI",
         capital: "Teresina",
@@ -363,12 +381,13 @@ export const estados: Estado[] = [
         },
         description: [],
         sources: [{
-            title: "Título da fonte",
-            link: "Link da fonte",
+            title: "",
+            link: "",
         }],
     },
 
     {
+        id: 19,
         name: "Rio de Janeiro",
         acronym: "RJ",
         capital: "Rio de Janeiro",
@@ -381,12 +400,13 @@ export const estados: Estado[] = [
         },
         description: [],
         sources: [{
-            title: "Título da fonte",
-            link: "Link da fonte",
+            title: "",
+            link: "",
         }],
     },
 
     {
+        id: 20,
         name: "Rio Grande do Norte",
         acronym: "RN",
         capital: "Natal",
@@ -399,12 +419,13 @@ export const estados: Estado[] = [
         },
         description: [],
         sources: [{
-            title: "Título da fonte",
-            link: "Link da fonte",
+            title: "",
+            link: "",
         }],
     },
 
     {
+        id: 21,
         name: "Rio Grande do Sul",
         acronym: "RS",
         capital: "Porto Alegre",
@@ -417,12 +438,13 @@ export const estados: Estado[] = [
         },
         description: [],
         sources: [{
-            title: "Título da fonte",
-            link: "Link da fonte",
+            title: "",
+            link: "",
         }],
     },
 
     {
+        id: 22,
         name: "Rondônia",
         acronym: "RO",
         capital: "Porto Velho",
@@ -435,12 +457,13 @@ export const estados: Estado[] = [
         },
         description: [],
         sources: [{
-            title: "Título da fonte",
-            link: "Link da fonte",
+            title: "",
+            link: "",
         }],
     },
 
     {
+        id: 23,
         name: "Roraima",
         acronym: "RR",
         capital: "Boa Vista",
@@ -453,12 +476,13 @@ export const estados: Estado[] = [
         },
         description: [],
         sources: [{
-            title: "Título da fonte",
-            link: "Link da fonte",
+            title: "",
+            link: "",
         }],
     },
 
     {
+        id: 24,
         name: "Santa Catarina",
         acronym: "SC",
         capital: "Florianópolis",
@@ -471,12 +495,13 @@ export const estados: Estado[] = [
         },
         description: [],
         sources: [{
-            title: "Título da fonte",
-            link: "Link da fonte",
+            title: "",
+            link: "",
         }],
     },
 
     {
+        id: 25,
         name: "São Paulo",
         acronym: "SP",
         capital: "São Paulo",
@@ -489,12 +514,13 @@ export const estados: Estado[] = [
         },
         description: [],
         sources: [{
-            title: "Título da fonte",
-            link: "Link da fonte",
+            title: "",
+            link: "",
         }],
     },
 
     {
+        id: 26,
         name: "Sergipe",
         acronym: "SE",
         capital: "Aracaju",
@@ -507,12 +533,13 @@ export const estados: Estado[] = [
         },
         description: [],
         sources: [{
-            title: "Título da fonte",
-            link: "Link da fonte",
+            title: "",
+            link: "",
         }],
     },
 
     {
+        id: 27,
         name: "Tocantins",
         acronym: "TO",
         capital: "Palmas",
@@ -525,8 +552,8 @@ export const estados: Estado[] = [
         },
         description: [],
         sources: [{
-            title: "Título da fonte",
-            link: "Link da fonte",
+            title: "",
+            link: "",
         }],
     },
 ]

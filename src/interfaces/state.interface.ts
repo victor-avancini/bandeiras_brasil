@@ -1,4 +1,5 @@
-export interface Estado {
+export interface State {
+    id: number;
     name: string;
     acronym: string;
     capital: string;
@@ -17,9 +18,9 @@ export interface Estado {
 }
 
 export interface FlagCardProps {
-    estado: Estado;
+    state: State;
 }
 
-export interface EstadoPageProps {
-    estado: Estado;
+export interface StatePageProps {
+    state: State;
 }

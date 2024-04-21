@@ -1,10 +1,10 @@
 import { Route, Routes } from "react-router-dom";
 import { HomePage } from "../pages/HomePage/HomePage";
 import { AboutPage } from "../pages/AboutPage/AboutPage";
-import { GlossaryPage } from "../pages/Glossary/GlossaryPage";
+import { GlossaryPage } from "../pages/GlossaryPage/GlossaryPage";
 import { BrPage } from "../pages/BrPage/BrPage";
 import { StatePage } from "../pages/StatePage/StatePage";
-import { estados } from "../data/FlagsData";
+import { states } from "../data/FlagsData";
 
 export const RoutesMain = () => {
     return (
@@ -13,8 +13,8 @@ export const RoutesMain = () => {
             <Route path="/sobre" element={<AboutPage />} />
             <Route path="/glossario" element={<GlossaryPage />} />
             <Route path="/br" element={<BrPage />} />
-            {estados.map((estado) => (
-                <Route key={estado.name} path={`/${estado.name}`} element={<StatePage estado={estado} />} />
+            {states.map((state) => (
+                <Route key={state.name} path={`/${state.name}`} element={<StatePage state={state} />} />
             ))}
         </Routes >
     )

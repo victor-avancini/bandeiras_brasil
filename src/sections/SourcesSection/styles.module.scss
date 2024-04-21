@@ -2,11 +2,50 @@
     border-top: 1px dashed #777;
     padding: 50px 0;
     border-bottom: 1px dotted #ddd;
+
+    ul {
+        padding: 0;
+        .source {
+            margin-bottom: 5px;
+            font-size: .85em;
+            color: #777;
+
+            a {
+                display: inline-flex;
+                gap: 5px;
+                align-items: center;
+
+                text-decoration: none;
+                color: #777;
+            }
+        }
+
+        .source:hover {
+            a {
+                background-color: #ddd;
+                box-shadow: 0 0 0 5px #ddd;
+            }
+        }
+    }
 }
 
 @media screen and (min-width: 800px) {
     .sources {
         padding-bottom: 100px;
         margin-bottom: 100px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 799px) {
+    .sources {
+        padding-bottom: 80px;
+        margin-bottom: 80px;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .sources {
+        padding-bottom: 60px;
+        margin-bottom: 60px;
     }
 }

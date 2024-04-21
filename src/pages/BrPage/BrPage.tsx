@@ -1,7 +1,12 @@
+import { Footer } from "../../components/Footer/Footer";
 import { NavState } from "../../components/NavState/NavState";
 
 export const BrPage = () => {
     return (
-        < NavState />
+        <nav>
+            <NavState />
+            <Footer />
+        </nav>
+
     )
 }
