@@ -55,6 +55,7 @@ export const states: State[] = [
                 link: "https://pt.wikipedia.org/wiki/Hist%C3%B3ria_do_Acre",
             }
         ],
+        composition: ["A bandeira do Acre é constituída por dois triângulos retângulos (um amarelo e outro verde) unidos pelas respectivas hipotenusas, constituindo, assim, no todo, um quadrilátero paralelogramo.", "A estrela vermelha no canto superior esquerdo é chamada de 'Estrela Altaneira'."],
     },
 
     {
@@ -80,6 +81,7 @@ export const states: State[] = [
                 link: "https://pt.wikipedia.org/wiki/Hist%C3%B3ria_de_Alagoas",
             },
         ],
+        composition: [""]
     },
 
     {
@@ -99,6 +101,7 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
+        composition: [""]
     },
 
     {
@@ -118,6 +121,7 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
+        composition: [""]
     },
 
     {
@@ -137,6 +141,7 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
+        composition: [""]
     },
 
     {
@@ -156,6 +161,7 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
+        composition: [""]
     },
 
     {
@@ -175,6 +181,7 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
+        composition: [""]
     },
 
     {
@@ -194,6 +201,7 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
+        composition: [""]
     },
 
     {
@@ -213,6 +221,7 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
+        composition: [""]
     },
 
     {
@@ -232,6 +241,7 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
+        composition: [""]
     },
 
     {
@@ -251,6 +261,7 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
+        composition: [""]
     },
 
     {
@@ -270,6 +281,7 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
+        composition: [""]
     },
 
     {
@@ -289,6 +301,7 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
+        composition: [""]
     },
 
     {
@@ -308,6 +321,7 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
+        composition: [""]
     },
 
     {
@@ -327,6 +341,7 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
+        composition: [""]
     },
 
     {
@@ -346,6 +361,7 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
+        composition: [""]
     },
 
     {
@@ -365,6 +381,7 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
+        composition: [""]
     },
 
     {
@@ -384,6 +401,7 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
+        composition: [""]
     },
 
     {
@@ -403,6 +421,7 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
+        composition: [""]
     },
 
     {
@@ -422,6 +441,7 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
+        composition: [""]
     },
 
     {
@@ -441,6 +461,7 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
+        composition: [""]
     },
 
     {
@@ -460,6 +481,7 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
+        composition: [""]
     },
 
     {
@@ -479,6 +501,7 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
+        composition: [""]
     },
 
     {
@@ -498,6 +521,7 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
+        composition: [""]
     },
 
     {
@@ -517,6 +541,7 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
+        composition: [""]
     },
 
     {
@@ -536,6 +561,7 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
+        composition: [""]
     },
 
     {
@@ -555,5 +581,6 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
+        composition: [""]
     },
 ]

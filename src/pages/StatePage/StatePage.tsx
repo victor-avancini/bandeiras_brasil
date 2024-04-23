@@ -7,6 +7,7 @@ import { DescriptionSection } from "../../sections/DescriptionSection/Descriptio
 import { SourcesSection } from "../../sections/SourcesSection/SourcesSection";
 import { Helmet } from "react-helmet-async";
 import { Pagination } from "../../components/Pagination/Pagination";
+import { CompositionSection } from "../../sections/CompositionSection/CompositionSection";
 
 export const StatePage: React.FC<StatePageProps> = ({ state }) => {
     return (
@@ -18,6 +19,7 @@ export const StatePage: React.FC<StatePageProps> = ({ state }) => {
             <NavState />
             <HeaderState state={state} />
             <DescriptionSection state={state} />
+            <CompositionSection state={state}/>
             <Pagination state={state} />
             <SourcesSection state={state} />
             <Footer />

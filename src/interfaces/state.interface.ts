@@ -15,6 +15,7 @@ export interface State {
         title: string,
         link: string,
     }[],
+    composition: string[],
 }
 
 export interface FlagCardProps {
