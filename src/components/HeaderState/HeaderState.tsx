@@ -15,9 +15,9 @@ export const HeaderState: React.FC<StatePageProps> = ({ state }) => {
                 <div className={styles.nickname_state}>
                     <p>{state.nickname}</p>
                 </div>
-                <div className={styles.admitted}>
+                {/* <div className={styles.admitted}>
                     <p>{state.admitted.day} de {state.admitted.month} de {state.admitted.year}</p>
-                </div>
+                </div> */}
             </div>
         </header>
     )
