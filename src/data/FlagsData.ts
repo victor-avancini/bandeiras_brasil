@@ -70,7 +70,7 @@ export const states: State[] = [
             month: "Junho",
             year: 1891,
         },
-        description: ["lagoas é o estado onde nasceu Manuel Deodoro da Fonseca, Marechal do Exército Brasileiro que proclamou a República e foi o primeiro presidente do Brasil.", "O brasão simboliza as primeiras cidades alagoanas, Marechal Deodoro, Porto Calvo e Penedo, bem como suas riquezas agrícolas: a cana-de-açucar e o algodão.", "A bandeira atual foi oficialmente adotada em 23 de setembro de 1963."],
+        description: ["Alagoas é o estado onde nasceu Manuel Deodoro da Fonseca, Marechal do Exército Brasileiro que proclamou a República e foi o primeiro presidente do Brasil.", "A bandeira atual foi oficialmente adotada em 23 de setembro de 1963."],
         sources: [
             {
                 title: "Bandeira de Alagoas - Wikipédia",
@@ -80,8 +80,12 @@ export const states: State[] = [
                 title: "História de Alagoas - Wikipédia",
                 link: "https://pt.wikipedia.org/wiki/Hist%C3%B3ria_de_Alagoas",
             },
+            {
+                title: "Alagoas - IBGE",
+                link: "https://cidades.ibge.gov.br/brasil/al/historico"
+            }
         ],
-        composition: [""]
+        composition: ["As cores da bandeira de Alagoas fazem referência à bandeira da França, cujo simbolismo representa o ideal revolucionário 'liberdade, igualdade e fraternidade'." ,"O brasão simboliza as primeiras cidades alagoanas, Marechal Deodoro, Porto Calvo e Penedo, bem como suas riquezas agrícolas: a cana-de-açucar e o algodão."]
     },
 
     {
@@ -96,12 +100,30 @@ export const states: State[] = [
             month: "Outubro",
             year: 1988,
         },
-        description: [],
-        sources: [{
-            title: "",
-            link: "",
-        }],
-        composition: [""]
+        description: ["O estado do Amapá está localizado na região Norte do país, sendo um dos estados mais recentes do Brasil, criado em 1988. É um dos poucos estados brasileiros que possue território nos hemisférios norte e sul.", "O Amapá é o único estado brasileiro que foi conquistado por meio de arbitragem internacional.", "A bandeira atual do Amapá foi adotada em 5 de outubro de 1988"],
+        sources: [
+            {
+                title: "Bandeira do Amapá",
+                link: "https://pt.wikipedia.org/wiki/Bandeira_do_Amap%C3%A1",
+            },
+            {
+                title: "História do Amapá",
+                link: "https://pt.wikipedia.org/wiki/Hist%C3%B3ria_do_Amap%C3%A1"
+            },
+            {
+                title: "Território Federal do Amapá",
+                link: "https://pt.wikipedia.org/wiki/Territ%C3%B3rio_Federal_do_Amap%C3%A1"
+            },
+            {
+                title: "Amapá - Brasil Escola",
+                link: "https://brasilescola.uol.com.br/brasil/amapa.htm"
+            },
+            {
+                title: "Questão do Amapá",
+                link: "https://pt.wikipedia.org/wiki/Quest%C3%A3o_do_Amap%C3%A1"
+            }
+        ],
+        composition: ["O verde representa as matas, o amarelo as riquezas minerais, o azul representa o céu e o branco representa a paz. O preto simboliza o respeito aos homens que morreram lutando pelo estado.", "A figura geométrica centralizada no lado esquerdo, representa a Fortaleza de São José de Macapá."]
     },
 
     {
@@ -118,8 +140,8 @@ export const states: State[] = [
         },
         description: [],
         sources: [{
-            title: "",
-            link: "",
+            title: "História do Amazonas",
+            link: "https://pt.wikipedia.org/wiki/Hist%C3%B3ria_do_Amazonas",
         }],
         composition: [""]
     },
@@ -132,9 +154,9 @@ export const states: State[] = [
         flag: bandeira_BA,
         nickname: "Terra da Alegria",
         admitted: {
-            day: 32,
-            month: "Fechou",
-            year: 3000,
+            day: 15,
+            month: "Novembro",
+            year: 1889,
         },
         description: [],
         sources: [{
@@ -152,9 +174,9 @@ export const states: State[] = [
         flag: bandeira_CE,
         nickname: "Terra do Sol",
         admitted: {
-            day: 1,
-            month: "Janeiro",
-            year: 2021,
+            day: 15,
+            month: "Novembro",
+            year: 1889,
         },
         description: [],
         sources: [{
@@ -172,9 +194,9 @@ export const states: State[] = [
         flag: bandeira_DF,
         nickname: "Brasília, a Capital do Brasil",
         admitted: {
-            day: 1,
-            month: "Janeiro",
-            year: 2021,
+            day: 21,
+            month: "Abril",
+            year: 1960,
         },
         description: [],
         sources: [{
@@ -192,9 +214,9 @@ export const states: State[] = [
         flag: bandeira_ES,
         nickname: "Coração Capixaba",
         admitted: {
-            day: 1,
-            month: "Janeiro",
-            year: 2021,
+            day: 15,
+            month: "Novembro",
+            year: 1889,
         },
         description: [],
         sources: [{
@@ -212,9 +234,9 @@ export const states: State[] = [
         flag: bandeira_GO,
         nickname: "Estado do Cerrado",
         admitted: {
-            day: 1,
-            month: "Janeiro",
-            year: 2021,
+            day: 15,
+            month: "Novembro",
+            year: 1889,
         },
         description: [],
         sources: [{
@@ -232,9 +254,9 @@ export const states: State[] = [
         flag: bandeira_MA,
         nickname: "Terra dos Lençóis",
         admitted: {
-            day: 1,
-            month: "Janeiro",
-            year: 2021,
+            day: 15,
+            month: "Novembro",
+            year: 1889,
         },
         description: [],
         sources: [{
@@ -252,9 +274,9 @@ export const states: State[] = [
         flag: bandeira_MT,
         nickname: "Terra dos Pantanais",
         admitted: {
-            day: 1,
-            month: "Janeiro",
-            year: 2021,
+            day: 11,
+            month: "Outubro",
+            year: 1977,
         },
         description: [],
         sources: [{
@@ -272,9 +294,9 @@ export const states: State[] = [
         flag: bandeira_MS,
         nickname: "Portal do Pantanal",
         admitted: {
-            day: 1,
-            month: "Janeiro",
-            year: 2021,
+            day: 11,
+            month: "Outubro",
+            year: 1977,
         },
         description: [],
         sources: [{
@@ -292,9 +314,9 @@ export const states: State[] = [
         flag: bandeira_MG,
         nickname: "Terra do Pão de Queijo",
         admitted: {
-            day: 1,
-            month: "Janeiro",
-            year: 2021,
+            day: 15,
+            month: "Novembro",
+            year: 1889,
         },
         description: [],
         sources: [{
@@ -312,9 +334,9 @@ export const states: State[] = [
         flag: bandeira_PA,
         nickname: "Terra das Mangueiras",
         admitted: {
-            day: 1,
-            month: "Janeiro",
-            year: 2021,
+            day: 15,
+            month: "Novembro",
+            year: 1889,
         },
         description: [],
         sources: [{
@@ -332,9 +354,9 @@ export const states: State[] = [
         flag: bandeira_PB,
         nickname: "Coração do Nordeste",
         admitted: {
-            day: 1,
-            month: "Janeiro",
-            year: 2021,
+            day: 15,
+            month: "Novembro",
+            year: 1889,
         },
         description: [],
         sources: [{
@@ -352,9 +374,9 @@ export const states: State[] = [
         flag: bandeira_PR,
         nickname: "Terra das Araucárias",
         admitted: {
-            day: 1,
-            month: "Janeiro",
-            year: 2021,
+            day: 15,
+            month: "Novembro",
+            year: 1889,
         },
         description: [],
         sources: [{
@@ -372,9 +394,9 @@ export const states: State[] = [
         flag: bandeira_PE,
         nickname: "Terra do Frevo",
         admitted: {
-            day: 1,
-            month: "Janeiro",
-            year: 2021,
+            day: 15,
+            month: "Novembro",
+            year: 1889,
         },
         description: [],
         sources: [{
@@ -392,9 +414,9 @@ export const states: State[] = [
         flag: bandeira_PI,
         nickname: "Porta do Sertão",
         admitted: {
-            day: 1,
-            month: "Janeiro",
-            year: 2021,
+            day: 15,
+            month: "Novembro",
+            year: 1889,
         },
         description: [],
         sources: [{
@@ -412,9 +434,9 @@ export const states: State[] = [
         flag: bandeira_RJ,
         nickname: "Cidade Maravilhosa e capital mundial do Samba",
         admitted: {
-            day: 1,
-            month: "Janeiro",
-            year: 2021,
+            day: 15,
+            month: "Novembro",
+            year: 1889,
         },
         description: [],
         sources: [{
@@ -432,9 +454,9 @@ export const states: State[] = [
         flag: bandeira_RN,
         nickname: "Maravilha do Brasil",
         admitted: {
-            day: 1,
-            month: "Janeiro",
-            year: 2021,
+            day: 15,
+            month: "Novembro",
+            year: 1889,
         },
         description: [],
         sources: [{
@@ -452,9 +474,9 @@ export const states: State[] = [
         flag: bandeira_RS,
         nickname: "Terra dos Pampas",
         admitted: {
-            day: 1,
-            month: "Janeiro",
-            year: 2021,
+            day: 15,
+            month: "Novembro",
+            year: 1889,
         },
         description: [],
         sources: [{
@@ -472,9 +494,9 @@ export const states: State[] = [
         flag: bandeira_RO,
         nickname: "Terra do Rondon",
         admitted: {
-            day: 1,
-            month: "Janeiro",
-            year: 2021,
+            day: 22,
+            month: "Dezembro",
+            year: 1981,
         },
         description: [],
         sources: [{
@@ -492,9 +514,9 @@ export const states: State[] = [
         flag: bandeira_RR,
         nickname: "Monte Roraima",
         admitted: {
-            day: 1,
-            month: "Janeiro",
-            year: 2021,
+            day: 5,
+            month: "Outubro",
+            year: 1988,
         },
         description: [],
         sources: [{
@@ -512,9 +534,9 @@ export const states: State[] = [
         flag: bandeira_SC,
         nickname: "Paraíso das Praias",
         admitted: {
-            day: 1,
-            month: "Janeiro",
-            year: 2021,
+            day: 15,
+            month: "Novembro",
+            year: 1889,
         },
         description: [],
         sources: [{
@@ -532,9 +554,9 @@ export const states: State[] = [
         flag: bandeira_SP,
         nickname: "Terra da Garoa e capital econômica do Brasil",
         admitted: {
-            day: 1,
-            month: "Janeiro",
-            year: 2021,
+            day: 15,
+            month: "Novembro",
+            year: 1889,
         },
         description: [],
         sources: [{
@@ -552,9 +574,9 @@ export const states: State[] = [
         flag: bandeira_SE,
         nickname: "Terra dos Cajuais",
         admitted: {
-            day: 1,
-            month: "Janeiro",
-            year: 2021,
+            day: 15,
+            month: "Novembro",
+            year: 1889,
         },
         description: [],
         sources: [{
@@ -572,9 +594,9 @@ export const states: State[] = [
         flag: bandeira_TO,
         nickname: "Portal do Jalapão",
         admitted: {
-            day: 1,
-            month: "Janeiro",
-            year: 2021,
+            day: 5,
+            month: "Outubro",
+            year: 1988,
         },
         description: [],
         sources: [{
