@@ -56,6 +56,20 @@ export const states: State[] = [
             }
         ],
         composition: ["A bandeira do Acre é constituída por dois triângulos retângulos (um amarelo e outro verde) unidos pelas respectivas hipotenusas, constituindo, assim, no todo, um quadrilátero paralelogramo.", "A estrela vermelha no canto superior esquerdo é chamada de 'Estrela Altaneira'."],
+        colors: [
+            {
+                name: "Amarelo",
+                hex: "#FFD700"
+            },
+            {
+                name: "Verde",
+                hex: "##009E49",
+            },
+            {
+                name: "Vermelho",
+                hex: "#FF0000"
+            },
+        ],
     },
 
     {
@@ -85,7 +99,13 @@ export const states: State[] = [
                 link: "https://cidades.ibge.gov.br/brasil/al/historico"
             }
         ],
-        composition: ["As cores da bandeira de Alagoas fazem referência à bandeira da França, cujo simbolismo representa o ideal revolucionário 'liberdade, igualdade e fraternidade'." ,"O brasão simboliza as primeiras cidades alagoanas, Marechal Deodoro, Porto Calvo e Penedo, bem como suas riquezas agrícolas: a cana-de-açucar e o algodão."]
+        composition: ["As cores da bandeira de Alagoas fazem referência à bandeira da França, cujo simbolismo representa o ideal revolucionário 'liberdade, igualdade e fraternidade'.", "O brasão simboliza as primeiras cidades alagoanas, Marechal Deodoro, Porto Calvo e Penedo, bem como suas riquezas agrícolas: a cana-de-açucar e o algodão."],
+        colors: [
+            {
+                name: "",
+                hex: "",
+            },
+        ],
     },
 
     {
@@ -123,7 +143,13 @@ export const states: State[] = [
                 link: "https://pt.wikipedia.org/wiki/Quest%C3%A3o_do_Amap%C3%A1"
             }
         ],
-        composition: ["O verde representa as matas, o amarelo as riquezas minerais, o azul representa o céu e o branco representa a paz. O preto simboliza o respeito aos homens que morreram lutando pelo estado.", "A figura geométrica centralizada no lado esquerdo, representa a Fortaleza de São José de Macapá."]
+        composition: ["O verde representa as matas, o amarelo as riquezas minerais, o azul representa o céu e o branco representa a paz. O preto simboliza o respeito aos homens que morreram lutando pelo estado.", "A figura geométrica centralizada no lado esquerdo, representa a Fortaleza de São José de Macapá."],
+        colors: [
+            {
+                name: "",
+                hex: "",
+            },
+        ],
     },
 
     {
@@ -143,7 +169,13 @@ export const states: State[] = [
             title: "História do Amazonas",
             link: "https://pt.wikipedia.org/wiki/Hist%C3%B3ria_do_Amazonas",
         }],
-        composition: [""]
+        composition: [""],
+        colors: [
+            {
+                name: "",
+                hex: "",
+            },
+        ],
     },
 
     {
@@ -163,7 +195,13 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
-        composition: [""]
+        composition: [""],
+        colors: [
+            {
+                name: "",
+                hex: "",
+            },
+        ],
     },
 
     {
@@ -183,7 +221,13 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
-        composition: [""]
+        composition: [""],
+        colors: [
+            {
+                name: "",
+                hex: "",
+            },
+        ],
     },
 
     {
@@ -203,7 +247,13 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
-        composition: [""]
+        composition: [""],
+        colors: [
+            {
+                name: "",
+                hex: "",
+            },
+        ],
     },
 
     {
@@ -223,7 +273,13 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
-        composition: [""]
+        composition: [""],
+        colors: [
+            {
+                name: "",
+                hex: "",
+            },
+        ],
     },
 
     {
@@ -243,7 +299,13 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
-        composition: [""]
+        composition: [""],
+        colors: [
+            {
+                name: "",
+                hex: "",
+            },
+        ],
     },
 
     {
@@ -263,7 +325,13 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
-        composition: [""]
+        composition: [""],
+        colors: [
+            {
+                name: "",
+                hex: "",
+            },
+        ],
     },
 
     {
@@ -283,7 +351,13 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
-        composition: [""]
+        composition: [""],
+        colors: [
+            {
+                name: "",
+                hex: "",
+            },
+        ],
     },
 
     {
@@ -303,7 +377,13 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
-        composition: [""]
+        composition: [""],
+        colors: [
+            {
+                name: "",
+                hex: "",
+            },
+        ],
     },
 
     {
@@ -323,7 +403,13 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
-        composition: [""]
+        composition: [""],
+        colors: [
+            {
+                name: "",
+                hex: "",
+            },
+        ],
     },
 
     {
@@ -343,7 +429,13 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
-        composition: [""]
+        composition: [""],
+        colors: [
+            {
+                name: "",
+                hex: "",
+            },
+        ],
     },
 
     {
@@ -363,7 +455,13 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
-        composition: [""]
+        composition: [""],
+        colors: [
+            {
+                name: "",
+                hex: "",
+            },
+        ],
     },
 
     {
@@ -383,7 +481,13 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
-        composition: [""]
+        composition: [""],
+        colors: [
+            {
+                name: "",
+                hex: "",
+            },
+        ],
     },
 
     {
@@ -403,7 +507,13 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
-        composition: [""]
+        composition: [""],
+        colors: [
+            {
+                name: "",
+                hex: "",
+            },
+        ],
     },
 
     {
@@ -423,7 +533,13 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
-        composition: [""]
+        composition: [""],
+        colors: [
+            {
+                name: "",
+                hex: "",
+            },
+        ],
     },
 
     {
@@ -443,7 +559,13 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
-        composition: [""]
+        composition: [""],
+        colors: [
+            {
+                name: "",
+                hex: "",
+            },
+        ],
     },
 
     {
@@ -463,7 +585,13 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
-        composition: [""]
+        composition: [""],
+        colors: [
+            {
+                name: "",
+                hex: "",
+            },
+        ],
     },
 
     {
@@ -483,7 +611,13 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
-        composition: [""]
+        composition: [""],
+        colors: [
+            {
+                name: "",
+                hex: "",
+            },
+        ],
     },
 
     {
@@ -503,7 +637,13 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
-        composition: [""]
+        composition: [""],
+        colors: [
+            {
+                name: "",
+                hex: "",
+            },
+        ],
     },
 
     {
@@ -523,7 +663,13 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
-        composition: [""]
+        composition: [""],
+        colors: [
+            {
+                name: "",
+                hex: "",
+            },
+        ],
     },
 
     {
@@ -543,7 +689,13 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
-        composition: [""]
+        composition: [""],
+        colors: [
+            {
+                name: "",
+                hex: "",
+            },
+        ],
     },
 
     {
@@ -563,7 +715,13 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
-        composition: [""]
+        composition: [""],
+        colors: [
+            {
+                name: "",
+                hex: "",
+            },
+        ],
     },
 
     {
@@ -583,7 +741,13 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
-        composition: [""]
+        composition: [""],
+        colors: [
+            {
+                name: "",
+                hex: "",
+            },
+        ],
     },
 
     {
@@ -603,6 +767,12 @@ export const states: State[] = [
             title: "",
             link: "",
         }],
-        composition: [""]
+        composition: [""],
+        colors: [
+            {
+                name: "",
+                hex: "",
+            },
+        ],
     },
 ]
