@@ -1,10 +1,10 @@
 export interface State {
-    id: number;
-    name: string;
-    acronym: string;
-    capital: string;
-    flag: string;
-    nickname: string;
+    id: number,
+    name: string,
+    acronym: string,
+    capital: string,
+    flag: string,
+    nickname: string,
     admitted: {
         day: number,
         month: string,
@@ -16,6 +16,10 @@ export interface State {
         link: string,
     }[],
     composition: string[],
+    colors: {
+        name: string,
+        hex: string,
+    }[]
 }
 
 export interface FlagCardProps {
@@ -24,4 +28,13 @@ export interface FlagCardProps {
 
 export interface StatePageProps {
     state: State;
+}
+
+export interface Color {
+    name: string;
+    hex: string;
+}
+
+export interface ColorCardProps {
+    color: Color
 }
