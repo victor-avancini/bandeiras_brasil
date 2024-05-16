@@ -63,7 +63,7 @@ export const states: State[] = [
             },
             {
                 name: "Verde",
-                hex: "##009E49",
+                hex: "#009E49",
             },
             {
                 name: "Vermelho",
