@@ -1,7 +1,5 @@
-import { NavMain } from "../../components/NavMain/NavMain";
-import { Header } from "../../components/Header/Header";
-import { Footer } from "../../components/Footer/Footer";
-import { FlagsSection } from "../../sections/FlagsSection/FlagsSection";
+import { NavMain, Header, Footer } from "../../components";
+import { FlagsSection } from "../../sections";
 import styles from "./styles.module.scss";
 import { Helmet } from "react-helmet-async";
 import Flag_Brasil from "../../assets/Flag_of_Brazil.svg";

@@ -1,9 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import { HomePage } from "../pages/HomePage/HomePage";
-import { AboutPage } from "../pages/AboutPage/AboutPage";
-import { GlossaryPage } from "../pages/GlossaryPage/GlossaryPage";
-import { BrPage } from "../pages/BrPage/BrPage";
-import { StatePage } from "../pages/StatePage/StatePage";
+import { HomePage, AboutPage, GlossaryPage, BrPage, StatePage } from "../pages";
 import { states } from "../data/FlagsData";
 
 export const RoutesMain = () => {

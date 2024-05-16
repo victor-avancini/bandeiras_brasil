@@ -1,6 +1,5 @@
 import { Helmet } from "react-helmet-async";
-import { Footer } from "../../components/Footer/Footer";
-import { NavState } from "../../components/NavState/NavState";
+import { Footer, NavState } from "../../components";
 import Flag_Brasil from "../../assets/Flag_of_Brazil.svg";
 import styles from "./styles.module.scss"
 
