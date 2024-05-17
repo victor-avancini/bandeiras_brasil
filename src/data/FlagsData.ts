@@ -1,31 +1,5 @@
 import { State } from "../interfaces/state.interface";
-import bandeira_AC from "../assets/bandeira_acre.png";
-import bandeira_AL from "../assets/bandeira_alagoas.png";
-import bandeira_AP from "../assets/bandeira_amapa.jpg";
-import bandeira_AM from "../assets/bandeira_amazonas.jpg";
-import bandeira_BA from "../assets/bandeira_bahia.jpg";
-import bandeira_CE from "../assets/bandeira_ceara.jpg";
-import bandeira_DF from "../assets/bandeira_distrito_federal.jpg";
-import bandeira_ES from "../assets/bandeira_espirito_santo.jpg";
-import bandeira_GO from "../assets/bandeira_goias.jpg";
-import bandeira_MA from "../assets/bandeira_maranhao.jpg";
-import bandeira_MT from "../assets/bandeira_mato_grosso.jpg";
-import bandeira_MS from "../assets/bandeira_mato_grosso_do_sul.jpg";
-import bandeira_MG from "../assets/bandeira_minas_gerais.jpg";
-import bandeira_PA from "../assets/bandeira_para.jpg";
-import bandeira_PB from "../assets/bandeira_paraiba.jpg";
-import bandeira_PR from "../assets/bandeira_parana.jpg";
-import bandeira_PE from "../assets/bandeira_pernambuco.jpg";
-import bandeira_PI from "../assets/bandeira_piaui.jpg";
-import bandeira_RJ from "../assets/bandeira_rio_de_janeiro.jpg";
-import bandeira_RN from "../assets/bandeira_rio_grande_do_norte.jpg";
-import bandeira_RS from "../assets/bandeira_rio_grande_do_sul.jpg";
-import bandeira_RO from "../assets/bandeira_rondonia.jpg";
-import bandeira_RR from "../assets/bandeira_roraima.jpg";
-import bandeira_SC from "../assets/bandeira_santa_catarina.jpg";
-import bandeira_SP from "../assets/bandeira_sao_paulo.jpg";
-import bandeira_SE from "../assets/bandeira_sergipe.jpg";
-import bandeira_TO from "../assets/bandeira_tocantins.jpg";
+import { bandeira_AC, bandeira_AL, bandeira_AM, bandeira_AP, bandeira_BA, bandeira_CE, bandeira_DF, bandeira_ES, bandeira_GO, bandeira_MA, bandeira_MG, bandeira_MS, bandeira_MT, bandeira_PA, bandeira_PB, bandeira_PE, bandeira_PI, bandeira_PR, bandeira_RJ, bandeira_RN, bandeira_RO, bandeira_RR, bandeira_RS, bandeira_SC, bandeira_SE, bandeira_SP, bandeira_TO, coatOfArms_AC } from "../assets";
 
 export const states: State[] = [
     {
@@ -34,6 +8,7 @@ export const states: State[] = [
         acronym: "AC",
         capital: "Rio Branco",
         flag: bandeira_AC,
+        coatOfAmrs: coatOfArms_AC,
         nickname: "Terra das águas",
         admitted: {
             day: 15,
@@ -78,6 +53,7 @@ export const states: State[] = [
         acronym: "AL",
         capital: "Maceió",
         flag: bandeira_AL,
+        coatOfAmrs: "",
         nickname: "Caribe brasileiro",
         admitted: {
             day: 11,
@@ -102,9 +78,13 @@ export const states: State[] = [
         composition: ["As cores da bandeira de Alagoas fazem referência à bandeira da França, cujo simbolismo representa o ideal revolucionário 'liberdade, igualdade e fraternidade'.", "O brasão simboliza as primeiras cidades alagoanas, Marechal Deodoro, Porto Calvo e Penedo, bem como suas riquezas agrícolas: a cana-de-açucar e o algodão."],
         colors: [
             {
-                name: "",
-                hex: "",
+                name: "Vermelho",
+                hex: "#DA251D",
             },
+            {
+                name: "Azul",
+                hex: "#0077B9"
+            }
         ],
     },
 
@@ -114,6 +94,7 @@ export const states: State[] = [
         acronym: "AP",
         capital: "Macapá",
         flag: bandeira_AP,
+        coatOfAmrs: "",
         nickname: "Portal da Amazônia",
         admitted: {
             day: 5,
@@ -158,6 +139,7 @@ export const states: State[] = [
         acronym: "AM",
         capital: "Manaus",
         flag: bandeira_AM,
+        coatOfAmrs: "",
         nickname: "Coração da Amazônia",
         admitted: {
             day: 15,
@@ -184,6 +166,7 @@ export const states: State[] = [
         acronym: "BA",
         capital: "Salvador",
         flag: bandeira_BA,
+        coatOfAmrs: "",
         nickname: "Terra da Alegria",
         admitted: {
             day: 15,
@@ -210,6 +193,7 @@ export const states: State[] = [
         acronym: "CE",
         capital: "Fortaleza",
         flag: bandeira_CE,
+        coatOfAmrs: "",
         nickname: "Terra do Sol",
         admitted: {
             day: 15,
@@ -236,6 +220,7 @@ export const states: State[] = [
         acronym: "DF",
         capital: "Brasília",
         flag: bandeira_DF,
+        coatOfAmrs: "",
         nickname: "Brasília, a Capital do Brasil",
         admitted: {
             day: 21,
@@ -262,6 +247,7 @@ export const states: State[] = [
         acronym: "ES",
         capital: "Vitória",
         flag: bandeira_ES,
+        coatOfAmrs: "",
         nickname: "Coração Capixaba",
         admitted: {
             day: 15,
@@ -288,6 +274,7 @@ export const states: State[] = [
         acronym: "GO",
         capital: "Goiânia",
         flag: bandeira_GO,
+        coatOfAmrs: "",
         nickname: "Estado do Cerrado",
         admitted: {
             day: 15,
@@ -314,6 +301,7 @@ export const states: State[] = [
         acronym: "MA",
         capital: "São Luís",
         flag: bandeira_MA,
+        coatOfAmrs: "",
         nickname: "Terra dos Lençóis",
         admitted: {
             day: 15,
@@ -340,6 +328,7 @@ export const states: State[] = [
         acronym: "MT",
         capital: "Cuiabá",
         flag: bandeira_MT,
+        coatOfAmrs: "",
         nickname: "Terra dos Pantanais",
         admitted: {
             day: 11,
@@ -366,6 +355,7 @@ export const states: State[] = [
         acronym: "MS",
         capital: "Campo Grande",
         flag: bandeira_MS,
+        coatOfAmrs: "",
         nickname: "Portal do Pantanal",
         admitted: {
             day: 11,
@@ -392,6 +382,7 @@ export const states: State[] = [
         acronym: "MG",
         capital: "Belo Horizonte",
         flag: bandeira_MG,
+        coatOfAmrs: "",
         nickname: "Terra do Pão de Queijo",
         admitted: {
             day: 15,
@@ -418,6 +409,7 @@ export const states: State[] = [
         acronym: "PA",
         capital: "Belém",
         flag: bandeira_PA,
+        coatOfAmrs: "",
         nickname: "Terra das Mangueiras",
         admitted: {
             day: 15,
@@ -444,6 +436,7 @@ export const states: State[] = [
         acronym: "PB",
         capital: "João Pessoa",
         flag: bandeira_PB,
+        coatOfAmrs: "",
         nickname: "Coração do Nordeste",
         admitted: {
             day: 15,
@@ -470,6 +463,7 @@ export const states: State[] = [
         acronym: "PR",
         capital: "Curitiba",
         flag: bandeira_PR,
+        coatOfAmrs: "",
         nickname: "Terra das Araucárias",
         admitted: {
             day: 15,
@@ -496,6 +490,7 @@ export const states: State[] = [
         acronym: "PE",
         capital: "Recife",
         flag: bandeira_PE,
+        coatOfAmrs: "",
         nickname: "Terra do Frevo",
         admitted: {
             day: 15,
@@ -522,6 +517,7 @@ export const states: State[] = [
         acronym: "PI",
         capital: "Teresina",
         flag: bandeira_PI,
+        coatOfAmrs: "",
         nickname: "Porta do Sertão",
         admitted: {
             day: 15,
@@ -548,6 +544,7 @@ export const states: State[] = [
         acronym: "RJ",
         capital: "Rio de Janeiro",
         flag: bandeira_RJ,
+        coatOfAmrs: "",
         nickname: "Cidade Maravilhosa e capital mundial do Samba",
         admitted: {
             day: 15,
@@ -574,6 +571,7 @@ export const states: State[] = [
         acronym: "RN",
         capital: "Natal",
         flag: bandeira_RN,
+        coatOfAmrs: "",
         nickname: "Maravilha do Brasil",
         admitted: {
             day: 15,
@@ -600,6 +598,7 @@ export const states: State[] = [
         acronym: "RS",
         capital: "Porto Alegre",
         flag: bandeira_RS,
+        coatOfAmrs: "",
         nickname: "Terra dos Pampas",
         admitted: {
             day: 15,
@@ -626,6 +625,7 @@ export const states: State[] = [
         acronym: "RO",
         capital: "Porto Velho",
         flag: bandeira_RO,
+        coatOfAmrs: "",
         nickname: "Terra do Rondon",
         admitted: {
             day: 22,
@@ -652,6 +652,7 @@ export const states: State[] = [
         acronym: "RR",
         capital: "Boa Vista",
         flag: bandeira_RR,
+        coatOfAmrs: "",
         nickname: "Monte Roraima",
         admitted: {
             day: 5,
@@ -678,6 +679,7 @@ export const states: State[] = [
         acronym: "SC",
         capital: "Florianópolis",
         flag: bandeira_SC,
+        coatOfAmrs: "",
         nickname: "Paraíso das Praias",
         admitted: {
             day: 15,
@@ -704,6 +706,7 @@ export const states: State[] = [
         acronym: "SP",
         capital: "São Paulo",
         flag: bandeira_SP,
+        coatOfAmrs: "",
         nickname: "Terra da Garoa e capital econômica do Brasil",
         admitted: {
             day: 15,
@@ -730,6 +733,7 @@ export const states: State[] = [
         acronym: "SE",
         capital: "Aracaju",
         flag: bandeira_SE,
+        coatOfAmrs: "",
         nickname: "Terra dos Cajuais",
         admitted: {
             day: 15,
@@ -756,6 +760,7 @@ export const states: State[] = [
         acronym: "TO",
         capital: "Palmas",
         flag: bandeira_TO,
+        coatOfAmrs: "",
         nickname: "Portal do Jalapão",
         admitted: {
             day: 5,

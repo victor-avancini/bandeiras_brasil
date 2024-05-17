@@ -5,7 +5,7 @@ export const NavMain = () => {
     return (
         <nav className={styles.nav_main}>
             <Link to="/sobre" className={styles.links}>Sobre</Link>
-            <Link to="/glossario" className={styles.links}>Glossário</Link>
+            {/* <Link to="/glossario" className={styles.links}>Glossário</Link> */}
         </nav>
     )
 }

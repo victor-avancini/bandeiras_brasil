@@ -11,7 +11,7 @@ export const NavState = () => {
             </div>
             <div className={styles.about_and_glossary}>
                 <Link to="/sobre" className={styles.links}>Sobre</Link>
-                <Link to="/glossario" className={styles.links}>Glossário</Link>
+                {/* <Link to="/glossario" className={styles.links}>Glossário</Link> */}
             </div>
         </nav>
     )

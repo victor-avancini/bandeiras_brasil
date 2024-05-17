@@ -2,7 +2,7 @@ import { NavMain, Header, Footer } from "../../components";
 import { FlagsSection } from "../../sections";
 import styles from "./styles.module.scss";
 import { Helmet } from "react-helmet-async";
-import Flag_Brasil from "../../assets/Flag_of_Brazil.svg";
+import Flag_Brasil from "../../assets/bandeiras/Flag_of_Brazil.svg";
 
 export const HomePage = () => {
     return (

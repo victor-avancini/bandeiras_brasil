@@ -6,3 +6,5 @@ export { HeaderState } from "./HeaderState/HeaderState";
 export { NavMain } from "./NavMain/NavMain";
 export { NavState } from "./NavState/NavState";
 export { Pagination } from "./Pagination/Pagination";
+export { HeaderAbout } from "./HeaderAbout/HeaderAbout";
+export { HeaderBrazil } from "./HeaderBr/HeaderBr";

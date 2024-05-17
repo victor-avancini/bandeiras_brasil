@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import { Footer, NavState } from "../../components";
-import Flag_Brasil from "../../assets/Flag_of_Brazil.svg"
+import Flag_Brasil from "../../assets/bandeiras/Flag_of_Brazil.svg"
 
 export const GlossaryPage = () => {
     return (

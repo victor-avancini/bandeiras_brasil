@@ -4,6 +4,7 @@ export interface State {
     acronym: string,
     capital: string,
     flag: string,
+    coatOfAmrs: string,
     nickname: string,
     admitted: {
         day: number,

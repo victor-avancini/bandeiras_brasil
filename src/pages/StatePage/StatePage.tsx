@@ -14,8 +14,9 @@ export const StatePage: React.FC<StatePageProps> = ({ state }) => {
             <NavState />
             <HeaderState state={state} />
             <DescriptionSection state={state} />
-            <CompositionSection state={state}/>
+            <CompositionSection state={state} />
             <ColorsSection state={state}></ColorsSection>
+            {/* <CoatOfArmsSection state={state} /> */}
             <Pagination state={state} />
             <SourcesSection state={state} />
             <Footer />

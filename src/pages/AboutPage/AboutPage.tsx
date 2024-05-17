@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
-import { Footer, NavState } from "../../components";
-import Flag_Brasil from "../../assets/Flag_of_Brazil.svg";
-import styles from "./styles.module.scss"
+import { NavState, HeaderAbout, Footer } from "../../components";
+import Flag_Brasil from "../../assets/bandeiras/Flag_of_Brazil.svg";
+import { AboutSection } from "../../sections";
 
 export const AboutPage = () => {
     return (
@@ -11,19 +11,8 @@ export const AboutPage = () => {
                 <title>Sobre - Brasil</title>
             </Helmet>
             <NavState />
-            <header className={styles.header_about}>
-                <div className={styles.about}>
-                    <h1>Sobre</h1>
-                </div>
-                <div className={styles.description_about}>
-                    <div className={styles.nickname_about}>
-                        <p>Criado por <a href="https://victoravancini.vercel.app/" target="_blank">Victor Avancini</a></p>
-                    </div>
-                    <div className={styles.admitted}>
-                        <p>Desenvolvido em abril em 2024</p>
-                    </div>
-                </div>
-            </header>
+            <HeaderAbout />
+            <AboutSection />
             <Footer />
         </main>
     )
