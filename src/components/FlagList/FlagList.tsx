@@ -6,8 +6,8 @@ import styles from "./style.module.scss";
 export const FlagList = () => {
     return (
         <ul className={styles.flag_list}>
-            {states.map((state: State, index: number) => (
-                <FlagCard key={index} state={state} />
+            {states.map((state: State) => (
+                <FlagCard key={state.id} state={state} />
             ))}
         </ul>
     )

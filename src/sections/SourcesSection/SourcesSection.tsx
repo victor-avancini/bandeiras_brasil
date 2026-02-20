@@ -8,8 +8,8 @@ export const SourcesSection: React.FC<StatePageProps> = ({ state }) => {
             <h3>Referências</h3>
             <ul>
                 {state.sources.map((source, index) => (
-                    <li className={styles.source}>
-                        <a key={index} href={source.link} target="_blank" rel="noopener noreferrer">{source.title}<CiLink /></a>
+                    <li key={`${source.link}-${index}`} className={styles.source}>
+                        <a href={source.link} target="_blank" rel="noopener noreferrer">{source.title}<CiLink /></a>
                     </li>
                 ))}
             </ul>
