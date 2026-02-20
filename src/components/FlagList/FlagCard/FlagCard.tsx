@@ -3,11 +3,12 @@ import { Link } from "react-router-dom";
 import { FlagCardProps } from "../../../interfaces/state.interface";
 import styles from "./style.module.scss"
 import { MdArrowRightAlt } from "react-icons/md";
+import { slugifyStateName } from "../../../utils/slug";
 
 export const FlagCard: React.FC<FlagCardProps> = ({ state }) => {
     return (
         <li className={styles.flag_item}>
-            <Link to={`/${state.name}`} className={styles.flag_link}>
+            <Link to={`/${slugifyStateName(state.name)}`} className={styles.flag_link}>
                 <div className={styles.flag_state}>
                     <img src={state.flag} alt={`Bandeira ${state.name}`} />
                 </div>

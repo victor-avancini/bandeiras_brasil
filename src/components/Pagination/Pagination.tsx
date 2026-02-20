@@ -3,6 +3,7 @@ import { StatePageProps } from "../../interfaces/state.interface";
 import { states } from "../../data/FlagsData";
 import styles from "./styles.module.scss";
 import { BsArrowLeftCircle, BsArrowRightCircle } from "react-icons/bs";
+import { slugifyStateName } from "../../utils/slug";
 
 export const Pagination: React.FC<StatePageProps> = ({ state }) => {
     
@@ -14,8 +15,8 @@ export const Pagination: React.FC<StatePageProps> = ({ state }) => {
 
     return (
         <nav className={styles.pagination}>
-            <Link to={`/${previousState.name}`}><BsArrowLeftCircle />{previousState.name}</Link>
-            <Link to={`/${nextState.name}`}>{nextState.name}<BsArrowRightCircle /></Link>
+            <Link to={`/${slugifyStateName(previousState.name)}`}><BsArrowLeftCircle />{previousState.name}</Link>
+            <Link to={`/${slugifyStateName(nextState.name)}`}>{nextState.name}<BsArrowRightCircle /></Link>
         </nav>
     )
 }

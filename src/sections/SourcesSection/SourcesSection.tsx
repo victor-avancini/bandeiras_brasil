@@ -9,7 +9,7 @@ export const SourcesSection: React.FC<StatePageProps> = ({ state }) => {
             <ul>
                 {state.sources.map((source, index) => (
                     <li className={styles.source}>
-                        <a key={index} href={source.link} target="_blank">{source.title}<CiLink /></a>
+                        <a key={index} href={source.link} target="_blank" rel="noopener noreferrer">{source.title}<CiLink /></a>
                     </li>
                 ))}
             </ul>

@@ -8,7 +8,7 @@ export const HeaderAbout = () => {
             </div>
             <div className={styles.description_about}>
                 <div className={styles.nickname_about}>
-                    <p>Criado por <a href="https://victoravancini.vercel.app/" target="_blank">Victor Avancini</a></p>
+                    <p>Criado por <a href="https://victoravancini.vercel.app/" target="_blank" rel="noopener noreferrer">Victor Avancini</a></p>
                 </div>
                 <div className={styles.admitted}>
                     <p>Desenvolvido em abril em 2024</p>
